@@ -1,0 +1,1 @@
+SELECT customer_name, city FROM customers WHERE city = 'Meerut';

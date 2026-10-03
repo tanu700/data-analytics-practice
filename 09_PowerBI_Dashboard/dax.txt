@@ -1,0 +1,1 @@
+Total Sales = SUM(sales[sales_amount])

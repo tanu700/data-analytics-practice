@@ -1,6 +1,6 @@
-# 08 - Python Sales Chart
-Problem: Visualize monthly sales
-Solution: Used matplotlib bar chart
-Result: Chart shows sales trend clearly
-Tool: Python
-Code File: chart.py
+import matplotlib.pyplot as plt
+months = ['Jan','Feb','Mar']
+sales = [100, 200, 150]
+plt.bar(months, sales)
+plt.title('Monthly Sales')
+plt.show()
